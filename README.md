@@ -18,3 +18,7 @@ gist:单纯的分享代码片段？
 8.git merge融合a分支至master
 9.gitbranch -d a删除a分支
 10.git tag为分支添加标签（git tag v1.0）
+终于解决了怎么将本地文件仓库同步至github远程仓库，在.git文件夹中，找到config文件，添加[user]邮箱和名字。或者在git bash here中输入邮箱和查看本地配置（https://blog.csdn.net/weixin_40599276/article/details/92702070），git add,git commit,再git push origin一下就可以(选好master或者main)
+验证ssh是否完成git与github的绑定
+ssh -T git@github.com    复制ssh，而不是http
+即把hello world-tutorial同步到本地仓库
